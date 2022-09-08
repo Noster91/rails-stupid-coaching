@@ -1,4 +1,6 @@
-<h1>Questions#answer</h1>
-<p>You said: <%= @ask %></p>
-<p>Coach Says: <%= @answer %></p>
-<%= link_to "Answer Again", :ask %>
+<div class="container">
+  <h1>The Coach answers</h1>
+  <p>You said: <span class="font-italic"><%= @ask %></span></p>
+  <p>Coach Says: <%= @answer %></p>
+  <p><%= link_to "Answer Again", :ask %></p>
+</div>

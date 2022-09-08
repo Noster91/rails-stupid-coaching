@@ -1,6 +1,8 @@
-<h1>Questions#ask</h1>
-<p>Find me in app/views/questions/ask.html.erb</p>
-<form action="/answer" data-turbo="false">
-  <input type="text" name="question">
-  <input type="submit" value="Ask!">
-</form>
+<div class="container">
+  <h1>Are you going to work?</h1>
+  <p>Talk to the coach</p>
+  <form class="form-group d-flex" action="/answer" data-turbo="false">
+    <input class="form-control" type="text" name="question">
+    <input class="btn btn-primary d-flex align-items-center" type="submit" value="Ask!">
+  </form>
+</div>
